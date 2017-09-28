@@ -1,0 +1,15 @@
+table.comparacao {
+  font-size: 28px;
+  
+}
+table.comparacao td {
+  vertical-align: middle;
+}
+
+section.small-font ul, section.small-font p {
+  font-size:36px;
+}
+
+p.left {
+  text-align: left;
+}
