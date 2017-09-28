@@ -13,3 +13,61 @@ section.small-font ul, section.small-font p {
 p.left {
   text-align: left;
 }
+
+section#timeline div {
+  float: left;
+  color: #eee8d5;
+}
+
+section#timeline div.tllast {
+  border-right: 5px solid #93a1a1;
+  width: 10%;
+}
+
+section#timeline div.tlfirst {
+  border-left: 5px solid #93a1a1;
+  width: 10%;
+}
+
+section#timeline div.tlmiddle span.tlmark {
+  border-left: 5px solid #93a1a1;
+  float:none;
+  position: relative;
+  top: 0px;
+}
+
+section#timeline div.tlmiddle {
+  width: 39.47%;
+}
+
+
+section#timeline div.tlfirst span {
+  float:left;
+  position: relative;
+  top: -60px;
+  left: -40px;
+}
+
+section#timeline div.tllast span {
+  float:right;
+  position: relative;
+  top: -60px;
+  right: -70px;
+}
+
+section#timeline div.tlmiddle span{
+  position: relative;
+  top: -60px;
+}
+
+section#timeline div.tlmiddle span.tlmark{
+  position: relative;
+  left: 80px;
+}
+
+
+
+
+
+
+
