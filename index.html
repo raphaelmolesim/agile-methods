@@ -46,27 +46,31 @@
             <img src="img/britadeira.jpg" style="width:30%;" class="fragment" >
           </section>
           
+          <section>
+            <h2>Métodos mais utilizados</h2>
+            <img src="img/usage_methods_report.png">
+            <span class="source">fonte: Dados de 2015 até 2016, http://stateofagile.versionone.com/<span>
+          </section>
+          
           <section id="timeline">
-            <h2>Nível de Prescição</h2><br><br><br>
+            <h2>Nível de Prescrição</h2><br><br><br>
             
-            <div class="tlfirst">
+            <div class="tlfirst fragment">
               <span class="tllabel">Rup</span>
             </div>
-            <div class="tlmiddle">
+            <div class="tlmiddle fragment">
               <span class="tlmark">&nbsp;</span>
-              <span class="tllabel">&nbsp;&nbsp;&nbsp;XP</span>
+              <span class="tllabel">&nbsp;&nbsp;&nbsp;&nbsp;XP</span>
             </div>
-            <div class="tlmiddle">
+            <div class="tlmiddle fragment">
               <span class="tlmark">&nbsp;</span>
               <span class="tllabel">Scrum</span>
             </div>
-            <div class="tllast">
+            <div class="tllast fragment">
               <span class="tllabel">Kanban</span>
             </div>
             
             <hr style="border:3px solid;clear:both">
-            
-            
           </section>
           
           <section>
@@ -74,27 +78,29 @@
               <tr>
                 <th>Método</th>
                 <th>Foco</th>
-                <th>Contexto Necessário</th>
+                <th>Diferenças</th>
               </tr>
               <tr>
                 <td>Scrum</td>
-                <td>Etapa de desenvolvimento</td>
+                <td>Execução de Entregas</td>
                 <td>
                   <ul>
                     <li>Autorização para mudar</li>
-                    <li>Time dedicado</li>
+                    <li>Time dedicado e autonomo</li>
                     <li>Alguma estabilidade é necessária</li>
+                    <li>Escopo flexível</li>
                   </ul>
                 </td>
               </tr>
               <tr>
                 <td>eXtreming Programming</td>
-                <td>Atividade de desenvolvimento</td>
+                <td>Desenvolvimento de Software</td>
                 <td>
                   <ul>
                     <li>Autorização para mudar</li>
-                    <li>Time dedicado</li>
-                    <li>Baixa qualidade</li>
+                    <li>Time dedicado e autonomo</li>
+                    <li>Alguma estabilidade é necessária (???)</li>
+                    <li>Escopo flexível</li>
                   </ul>
                 </td>
               </tr>
@@ -346,13 +352,277 @@
             <h1>All together</h1>
           </section>
           
+          <section>
+            <h2>Mas será que isso é o suficiente?</h2>
+            <p class="fragment">Não, por definição.</p>
+          </section>
+          
+          <section class="small-font">
+          <p class="left">Há uma confusão que eu tenho ouvido com alguns projetos recentemente. Funciona assim:</p>
+          <ol>
+            <li>Eles querem utilizar um processo ágil, e escolhem Scrum</li>
+            <li>Eles adotam as práticas do Scrum, e talvez até os princípios</li>
+            <li>Depois de um tempo, progresso é lento porque a base de código está uma bagunça</li>
+          </ol>
+          
+          <p class="fragment" data-fragment-index="1">A comunidade Scrum precisa redobrar seus esforços para garantir que as pessoas entendem a importancia de praticas técnicas fortes.</p>
+          
+          <p class="right fragment" data-fragment-index="2">Martin Fowler, 2009</p>
+          <span class="source fragment" data-fragment-index="2">fonte: https://martinfowler.com/bliki/FlaccidScrum.html</span>
+        </section>
+          
         </section>
         <section>
-          eXtreme Programming
+          
+          
+          <section>
+            <h1>eXtreme Programming</h1>
+          </section>
+          
+          
+
+          <section>
+            <p>"XP é o caminho para um programador buscando assumir responsabilidade pelo seu trabalho."</p>
+            <br>
+            <p class="right">Kent Beck</p>
+          </section>
+          
+          <section>
+            <h1>Communication</h1>
+            <p>Motion without communication is not progress.</p>
+            <!--
+            When problems arise in development, most often someone already knows the solution; but that knowledge doesn’t get through to someone with the power to make the change.
+            Motion without communication is not progress. When you encounter a problem, ask yourselves if the problem was caused by a lack of communication.
+              What communication do you need now to address the problem? 
+              What communication do you need to keep yourself out of this trouble in the future?
+            Communication is important for creating a sense of team and effective cooperation. Communication, though, is not all you need for effective software development.
+             -->
+          </section>
+          
+          <section>
+            <h1>Simplicity</h1>
+            
+            <p>To make a system simple enough to gracefully solve only today’s problem is hard work</p>   
+            <!--
+            I ask people to think about the question, “What is the simplest thing that could possibly work?” Critics seem to miss the second half of the question. “Well, we have serious security and reliability constraints so we couldn’t possibly make our system simple.” I’m not asking you to think about what is too simple to work, just to bias your thinking toward eliminating wasted complexity. If security concerns dictate that you split your system across two processors where otherwise you could have used one, as far as I am concerned, that result is simple. The only better solution is if you could find a way to address the security concerns on a single processor.
+
+            Simplicity only makes sense in context.
+             -->
+          </section>
+          
+          <section>
+            <h1>Feedback</h1>
+            <p>Directions set in advance of experience have an especially short half-life.</p>
+            
+            <!--
+            XP teams strive to generate as much feedback as they can handle as quickly as possible. They try to shorten the feedback cycle to minutes or hours instead of weeks or months. The sooner you know, the sooner you can adapt.  
+              
+            For example, suppose you move to quarterly releases and suddenly have more defect reports than you can respond to before the next quarter’s release. Slow down releases until you can handle the defect reports and still develop new functionality. Take the time to figure out why you are creating so many defects or why each defect takes so long to address. Once you’ve solved the basic problem; you can start releasing quarterly again, cranking up the feedback machine.
+             -->
+          </section>
+          
+          <section>
+            <h1>Courage</h1>
+            <p>The courage to speak truths, pleasant or unpleasant, fosters communication and trust.</p>
+            <!-- 
+              Courage is effective action in the face of fear.
+              
+              Sometimes courage manifests as a bias to action. If you know what the problem is, do something about it. Sometimes courage manifests as patience. If you know there is a problem but you don’t know what it is, it takes courage to wait for the real problem to emerge distinctly.
+
+Beck, Kent. Extreme Programming Explained: Embrace Change (XP Series) (p. 21). Pearson Education. Kindle Edition.  -->
+          </section>
+          
+          <section>
+            <h1>Respect</h1>
+            <p>
+              If members of a team don’t care about a project, nothing can save it.
+            </p>
+            
+            <!--
+              The previous four values point to one that lies below the surface of the other four: respect. If members of a team don’t care about each other and what they are doing, XP won’t work. If members of a team don’t care about a project, nothing can save it.
+              
+              -->
+          </section>
+          
+          <!--section>
+            “Wouldn’t it be easier just to do it right in the first place?” 
+            Of course it would, except for three things:  
+            <ol>
+              <li>We may not know how to do it “right”. If we are solving a novel problem there may be several solutions that might work or there may be no clear solution at all.  
+              </li>
+              <li>What’s right for today may be wrong for tomorrow. Changes outside our control or ability to predict can easily invalidate yesterday’s decisions.
+              </li>
+              <li>Doing everything “right” today might take so long that changing circumstances tomorrow invalidate today’s solution before it is even finished.
+              </li>
+            </ol>
+          </section-->
+          
+          <section>
+            <h2>XP possue 14 princípios</h2>
+            
+            <div class="span50">
+            <ul>
+              <li>Humanity</li>
+              <li>Economics</li>
+              <li>Mutual Benefit</li>
+              <li>Self-Similarity</li>
+              <li>Improvement</li>
+              <li>Diversity</li>
+              <li>Reflection</li>
+            </ul>
+          </div>
+          
+          <div>
+            <ul class="span50">
+              <li>Flow</li>
+              <li>Opportunity</li>
+              <li>Redundancy</li>
+              <li>Failure</li>
+              <li>Quality</li>
+              <li>Baby Step</li>
+              <li>Accepted Responsibilit</li>
+            </ul>
+          </div>
+          
+          </section>
+          
+          <section>
+            <h2>XP possue 24 práticas</h2>
+            <img src="img/xp-practices.png">
+          </section>
+          
+          <section>
+            <h2>Práticas de XP versão 1.0</h2>
+            <img src="img/xp-practices.jpg">
+          </section>
+          
+          <section>
+            <h2>Programmer Centric Approach</h2>
+            <p>If I don't have time/budget constrains, what would I do?</p>
+          </section>
+          
+          <section>
+            <h3>Fine scale feedback</h3><br>
+            <p class="fragment">Whole Team</p><br>
+            <p class="fragment">Test-First Programming</p><br>
+            <p class="fragment">Pair Programming</p>
+          </section>
+          
+          <section>
+            <h3>Continuous process rather than batch</h3><br>
+            <p class="fragment">Incremental Design</p><br>
+            <p class="fragment">Continuous Integration</p><br>
+            <p class="fragment">Daily Deployment</p>
+          </section>
+          
+          <section>
+            <h3>Shared understanding</h3><br>
+            <p class="fragment">Real Customer Involvement</p><br>
+            <p class="fragment">Sit Together</p><br>
+            <p class="fragment">Stories</p><br>
+            <p class="fragment">Shared Code</p>
+          </section>
+          
+          <section>
+            <h3>Programmer welfare</h3><br>
+            <p class="fragment">Energized Work</p><br>
+            <p class="fragment">Slack</p><br>
+            <p class="fragment">Negotiated Scope Contract</p>
+          </section>
+          
+          <section>
+            <h2>E agora é o sufuciente?</h2>
+            
+            <img class="fragment" src="img/agile-develop.png">
+          </section>
+          
+          <section>
+            <h2>High Resistence Environment</h2>
+            <img src="img/dilbert-features.png">
+            <!-- img src="img/dilbert-no-change.jpg" -->
+            
+          </section>
+          
         </section>
         <section>
-          Kanban
+          <section>
+            <h1>Kanban Method</h1>
+          </section>
+          <section>
+            <p>The Kanban Method is an approach to incremental, evolutionary process and systems change for organizations.</p>
+            
+            <p class="right">David J. Andersson</p>
+          </section>
+          
+          <section class="small-font">
+            <h2>Kanban Values</h1>
+            <div class="span50">
+              <p>
+                The Kanban Method is motivated by the belief that respecting all of the individuals who contribute to a collaborative enterprise is necessary, not only for the success of the venture, but for it to be worthwhile at all.
+              </p>
+
+              <p>Kanban’s values may be summed up in that single word, “respect.” </p>
+            </div>
+            <div class="span50">
+              <img width="75%" src="img/kanban-values.png">
+            </div>
+          </section>
+          <section>
+            <h2>Change Management Principles</h2>
+            
+            <ol>
+              <li class="fragment">Start with what you do now:<br>
+                
+                <ul>
+                  <li>understanding current processes, as they are actually practiced </li>
+                  <li>and respecting existing roles, responsibilities, and job titles.</li>
+                </ul>
+              
+              </li>
+            
+              <li class="fragment">Agree to pursue improvement through evolutionary change.</li>
+              <li class="fragment">Encourage acts of leadership at every level—from the individual contributor to senior management.</li>
+            </ol>
+          </section>
+          <section>
+            <h2>Service Delivery Principles</h2>
+            
+            <ol>
+              <li class="fragment">Understand and focus on your customers needs and expectations.</li>
+            
+              <li class="fragment">Manage the work; let people self-organize around it.</li>
+              <li class="fragment">Evolve policies to improve customer and business outcomes.</li>
+            </ol>
+          </section>
+          
+          <section>
+            <h2>Kanban Practices</h2>
+            <ol>
+              <li class="fragment">Visualize.</li>
+              <li class="fragment">Limit work in progress.</li>
+              <li class="fragment">Manage flow.</li>
+              <li class="fragment">Make policies explicit.</li>
+              <li class="fragment">Implement feedback loops.</li>
+              <li class="fragment">Improve collabora- tively, evolve experimentally.</li>
+            </ol>
+          </section>
+          
+          <section>
+            <h2>Describing a flow system</h2>
+            <img src="img/flow-system.png">
+          </section>
+          
+          <section>
+            <h2>The Little Law</h2>
+            
+          </section>
+          
         </section>
+        
+        <section>
+          
+        </section>
+        
 			</div>
 		</div>
 

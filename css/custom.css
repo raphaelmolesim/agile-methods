@@ -6,12 +6,16 @@ table.comparacao td {
   vertical-align: middle;
 }
 
-section.small-font ul, section.small-font p {
+section.small-font li, section.small-font p {
   font-size:36px;
 }
 
 p.left {
   text-align: left;
+}
+
+p.right {
+  text-align: right;
 }
 
 section#timeline div {
@@ -62,10 +66,17 @@ section#timeline div.tlmiddle span{
 
 section#timeline div.tlmiddle span.tlmark{
   position: relative;
-  left: 80px;
+  left: 75px;
 }
 
+span.source {
+  font-size: 18px;
+}
 
+div.span50 {
+  width:50%;
+  float: left;
+}
 
 
 
