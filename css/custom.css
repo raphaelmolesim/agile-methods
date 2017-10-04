@@ -10,11 +10,11 @@ section.small-font li, section.small-font p {
   font-size:36px;
 }
 
-p.left {
+p.left, span.left {
   text-align: left;
 }
 
-p.right {
+p.right, span.right {
   text-align: right;
 }
 
@@ -78,7 +78,12 @@ div.span50 {
   float: left;
 }
 
-
-
+span.wip {
+  border-bottom: 1px solid white;
+}
+span.lt {
+  margin-top:22px;
+  display: block;
+}
 
 
